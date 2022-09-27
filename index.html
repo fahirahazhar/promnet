@@ -5,44 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <!--ini adalah block header-->
+<body> 
+    <!-- ini adalah bagian header -->
     <header>
-        <body>
-            <h1><center>PROFIL BIODATA DIRI</center></h1>
-            <P><center>DAFTAR PROFIL</center></P> 
+        <h1>Belajar Membuat Layout dengan HTML dan CSS</h1>
     </header>
-    <!--ini adalah section content-->
-    <section>
-        <img src="images/DSCF1824.JPG" alt="" style="width: 40%; margin: 40px auto; display: block;">
-        <table style="border: 1px purple solid; margin: 0px auto;"
-        <tr>
-            <td>Nama</td>
-            <td>:</td>
-            <td>Fakhirah Azhar</td>
-        </tr>
-        <tr>
-            <td>NIM</td>
-            <td>:</td>
-            <td>2104704</td>
-        </tr>
-        <tr>
-            <td>Alamat</td>
-            <td>:</td>
-            <td>Kota Ciebon</td>
-        </tr>
-        <tr>
-            <td>Detail Profile</td>
-            <td>:</td>
-            <td><a href="http://www.instagram.com/fkhrazhar"target="blank">klik disini</a></td>
-        </tr>
-        </table>
-    </section>
 
-    <!--ini adalah block footer-->
+    <!-- ini adalah bagian menu -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ini adalah container untuk body content -->
+    <div id="container">
+        <!-- ini adalah section content kiri -->
+        <section class="kiri">
+            <div class="content">
+                <h2>Judul Berita</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores quibusdam unde vero repudiandae alias fuga soluta, vel ipsam, et ad eos laboriosam nulla excepturi saepe dolorem nemo sed facilis iusto.</p>
+                <button>Read More...</button>
+        </div>
+        <div class="content">
+            <h2>Judul Berita</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores quibusdam unde vero repudiandae alias fuga soluta, vel ipsam, et ad eos laboriosam nulla excepturi saepe dolorem nemo sed facilis iusto.</p>
+            <button>Read More...</button>
+        </div>
+        </section>
+    
+        <!-- ini adalah konten kanan -->
+        <section class="kanan">
+            <div class="contentkanan">
+                <h2>CATEGORY</h2>
+                <hr>
+                <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Bootstrap</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">MY SQL</a></li>
+                    <li><a href="#">Lareval</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <!-- ini adalah bagian footer -->
     <footer>
-
+        <p>Copyright PSTI 2022</p>
     </footer>
 </body>
 </html>
